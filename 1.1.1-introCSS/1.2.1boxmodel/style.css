@@ -9,12 +9,12 @@
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
-    color: black;
+    color:green;
 }
 
-header{
+header {
     background-color: #0c0b0b;
     color: white;
     padding: 1rem 0;
@@ -30,7 +30,7 @@ width: 30rem;
 
 }
 
-.card-image-container{
+.card-image-container {
     width: 100%;
     height: 40%;
 
