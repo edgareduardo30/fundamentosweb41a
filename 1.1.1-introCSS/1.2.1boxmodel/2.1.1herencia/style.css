@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  font-family: "PT Serif", serif; /* Usar PT Serif */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  color: red;
+}
+
+h1 {
+  color: darkorange;
+}
+
+div h1 {
+  color: darksalmon;
+}
+
+.title {
+  color: cornflowerblue;
+  font-weight: 100;
+}
+
+.btn-primary {
+  color: darkorchid;
+}
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+}
+
+.modal {
+  background-color: black;
+  width: 30rem;
+  margin: 3rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.modal button {
+  color: white;
+  background-color: crimson;
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 100%;
+  position: absolute; /* Usar posición absoluta */
+  top: 10px;
+  right: 10px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around; /* Ajusta la distribución de los divs */
+  align-items: center;
+  flex-wrap: wrap; /* Permite que los divs se ajusten a nuevas líneas */
+  gap: 1rem; /* Espacio entre los divs */
+  width: 100%; /* Aseguramos que ocupe todo el espacio disponible */
+}
+
+.box {
+  color: white;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0; /* Ajusté el padding para que los divs tengan más espacio */
+  background-color: #333; /* Añadí un color de fondo para visualizar mejor los divs */
+  border-radius: 5px; /* Estilo opcional */
+}
+
+.box:nth-child(4) {
+  background-color: cornflowerblue;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.modal h1 {
+  color: white;
+  font-size: 1.2rem; /* Corregir tamaño de fuente */
+}
+
+#special-title {
+  color: black;
+  font-style: italic;
+}
+
+    
